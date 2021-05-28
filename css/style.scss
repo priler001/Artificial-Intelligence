@@ -1,0 +1,63 @@
+$main-color: #3A68B8;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+// HEADER
+
+// NAVBAR
+
+.univer{
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: $main-color;
+    margin-left: auto;
+    transition: .5s;
+}
+.univer:hover{
+    background-color: #020A18;
+    border: 1px solid #fff;
+}
+
+#header{
+    // NAV
+        nav{
+            background-color: #020A18;
+            .container{
+                .navbar-brand{
+                    span{
+                        color: $main-color;
+                        margin-top: 5px;
+                    }
+                }
+                .navbar-toggler{
+                    background-color: #fff;
+                }
+                ul{
+                    margin-left: 83px;
+                    li{
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+    .header{
+        background-color: #020617;
+        .container{
+            
+            color: #fff;
+            h5{
+                color: #3A68B8;
+            }
+            .header-buttons{
+                button:last-child{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

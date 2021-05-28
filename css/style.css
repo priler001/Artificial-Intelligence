@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap");
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.univer {
+  padding: 7px 25px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #3A68B8;
+  margin-left: auto;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.univer:hover {
+  background-color: #020A18;
+  border: 1px solid #fff;
+}
+
+#header nav {
+  background-color: #020A18;
+}
+
+#header nav .container .navbar-brand span {
+  color: #3A68B8;
+  margin-top: 5px;
+}
+
+#header nav .container .navbar-toggler {
+  background-color: #fff;
+}
+
+#header nav .container ul {
+  margin-left: 83px;
+}
+
+#header nav .container ul li {
+  padding-left: 20px;
+}
+
+#header .header {
+  background-color: #020617;
+}
+
+#header .header .container {
+  color: #fff;
+}
+
+#header .header .container h5 {
+  color: #3A68B8;
+}
+
+#header .header .container .header-buttons button:last-child {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
