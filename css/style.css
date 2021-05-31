@@ -45,6 +45,7 @@ body {
 }
 
 #header .header .container {
+  padding: 20px;
   color: #fff;
 }
 
@@ -54,5 +55,76 @@ body {
 
 #header .header .container .header-buttons button:last-child {
   margin-left: 20px;
+}
+
+#header .header .container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .header .container p {
+  color: gray !important;
+}
+
+#about {
+  background-color: #020618;
+}
+
+#about .header .container {
+  padding: 20px;
+  color: #fff;
+}
+
+#about .header .container h5 {
+  color: #3A68B8;
+}
+
+#about .header .container p {
+  color: gray !important;
+}
+
+#section-3 {
+  background-color: #020618;
+}
+
+#section-3 .header .container {
+  padding: 20px;
+  color: #fff;
+}
+
+#section-3 .header .container h5 {
+  color: #3A68B8;
+}
+
+#section-3 .header .container p {
+  color: gray !important;
+}
+
+footer .container .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .container div h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+footer .container div div {
+  margin-top: 55px;
+}
+
+footer .container div div a {
+  color: #828282;
+  display: block;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -48,7 +48,7 @@ body{
     .header{
         background-color: #020617;
         .container{
-            
+            padding: 20px;
             color: #fff;
             h5{
                 color: #3A68B8;
@@ -56,6 +56,75 @@ body{
             .header-buttons{
                 button:last-child{
                     margin-left: 20px;
+                }
+            }
+            .logo{
+                display: flex;
+                justify-content: space-between;
+            }
+            p{
+                color: gray !important;
+            }
+        }
+    }
+}
+
+// SECTION ABOUT
+
+#about{
+    background-color: #020618;
+        .header{
+            .container{
+                padding: 20px;
+                color: #fff;
+                h5{
+                    color: #3A68B8;
+                }
+                p{
+                    color: gray !important;
+                }
+            }
+        }
+}
+
+
+// SECTION 3
+
+#section-3{
+    background-color: #020618;
+        .header{
+            .container{
+                padding: 20px;
+                color: #fff;
+                h5{
+                    color: #3A68B8;
+                }
+                p{
+                    color: gray !important;
+                }
+            }
+        }
+}
+
+// FOOTER
+
+footer{
+    .container{
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+        }
+        div{
+            h2{
+                font-weight: 700;
+                font-size: 20px;
+            }
+            div{
+                margin-top: 55px;
+                a{
+                    color: #828282;
+                    display: block;
+                    margin-top: 10px;
                 }
             }
         }
